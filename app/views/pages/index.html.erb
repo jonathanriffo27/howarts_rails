@@ -1,0 +1,17 @@
+<div class='container'>
+  <h1 class='my-5'>Personajes de Harry Potter</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <% @character.each do |p| %>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title mb-3">Nombre: <%= p.name %></h4>
+            <p class="card-text mb-1">Localizacion: <%= p.location %></p>
+            <p class="card-text">Casa: <%= p.house %></p>
+          </div>
+        </div>
+      </div>
+    <% end%>
+  </div>
+  <%# <%= link_to "Agregar nueva cerveza", new_path, class: 'btn btn-primary my-5' %> %>
+</div>
