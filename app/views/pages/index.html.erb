@@ -4,6 +4,7 @@
     <% @character.each do |p| %>
       <div class="col">
         <div class="card">
+          <%= image_tag p.image %>
           <div class="card-body">
             <h4 class="card-title mb-3">Nombre: <%= p.name %></h4>
             <p class="card-text mb-1">Localizacion: <%= p.location %></p>
