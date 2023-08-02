@@ -1,5 +1,7 @@
 # Desafío - Despliegue de una aplicación en internet utilizando Heroku
 
+Visita la [web](https://rocky-badlands-36706-0a42cc9e6797.herokuapp.com/)
+
 Este desafío tiene como objetivo poner en práctica los conocimientos y habilidades adquiridos en el despliegue de una aplicación web en internet utilizando Heroku. En este caso, se trata de crear una aplicación que muestre personajes de Harry Potter, así como la locación y la casa a la que pertenece cada mago.
 
 ## Requerimientos
